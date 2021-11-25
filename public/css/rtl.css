@@ -1,0 +1,92 @@
+.navbar{
+    padding: 10px 150px;
+}
+.navbar-light .navbar-nav .nav-link {
+    color:black;    
+    border:1px transparent solid;
+    padding-right: 5px;
+}
+.navbar-light .navbar-nav .nav-link:hover {
+    width: 100%;
+    background-color: #f3d917;
+    border-radius: 10px;
+    color:black;
+    border:1px #f3d917 solid;
+    transition-duration: 0.5s;
+}
+.navbar-toggler-icon{
+    color:white;
+}
+.navbar-light .navbar-nav .nav-link:active {
+    background-color: #f3d917;
+    border-radius: 10px;
+    color:black;
+    border:1px black solid;
+}
+.navbar-light .navbar-nav .nav-link:focus {
+    color:black;
+}
+@media only screen and (max-width: 900px) {
+    .navbar{
+        padding: 10px 10px;
+    }
+}
+@media only screen and (max-width: 575px) {
+    .navbar{
+        padding: 5px 20px;
+    }
+    .navbar-light .navbar-nav .nav-link {
+        font-size: 13px;
+        color:black;
+    }
+    .adv-div-img{
+        width:25%;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+    .info-col{
+        display: none;
+    }
+}
+    
+
+
+
+                                                            /* editProfile */
+
+
+
+
+
+
+.edit-prof-btns{
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+}
+
+
+
+
+
+                                                             /*newPost */
+
+
+
+
+.list-group-item.active {
+    background-color: #fee318;
+    border-color: #fee318;
+    color:black;
+}
+
+
+
+.modal-header {
+    color: black;
+    background-color: #fee318;
+}
+.form-control   select{
+    padding-top: 0px;
+}

@@ -1,0 +1,19 @@
+.modal.in .modal-dialog {
+    width: 50%;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 12%;
+
+}
+@media(max-width:768px) {
+    .modal.in .modal-dialog {
+        width: 60%;
+        margin-top: 20%;
+        margin-bottom: 20%;
+
+    }
+}
+.input-group {
+    display: grid;
+}
